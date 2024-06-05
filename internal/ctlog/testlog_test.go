@@ -134,8 +134,9 @@ func (tl *TestLog) CheckLog() (sthTimestamp int64) {
 	}
 
 	if c.N == 0 {
-		if c.Hash != (tlog.Hash{}) {
-			t.Error("empty log should have zero hash")
+		expected := sha256.Sum256([]byte{})
+		if c.Hash != expected {
+			t.Error("empty log should have empty string hash")
 		}
 		return
 	}
