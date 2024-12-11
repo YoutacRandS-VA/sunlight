@@ -13,10 +13,10 @@ require (
 	github.com/aws/smithy-go v1.19.0
 	github.com/google/certificate-transparency-go v1.1.7
 	github.com/prometheus/client_golang v1.18.0
-	golang.org/x/crypto v0.19.0
-	golang.org/x/mod v0.16.1-0.20240315155916-aa51b25a4485
+	golang.org/x/crypto v0.31.0
+	golang.org/x/mod v0.17.0
 	golang.org/x/net v0.21.0
-	golang.org/x/sync v0.6.0
+	golang.org/x/sync v0.10.0
 	gopkg.in/yaml.v3 v3.0.1
 )
 
@@ -46,10 +46,10 @@ require (
 	github.com/prometheus/client_model v0.5.0 // indirect
 	github.com/prometheus/common v0.46.0 // indirect
 	github.com/prometheus/procfs v0.12.0 // indirect
-	golang.org/x/sys v0.17.0 // indirect
-	golang.org/x/text v0.14.0 // indirect
+	golang.org/x/sys v0.28.0 // indirect
+	golang.org/x/text v0.21.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240205150955-31a09d347014 // indirect
 	google.golang.org/grpc v1.61.0 // indirect
-	google.golang.org/protobuf v1.32.0 // indirect
+	google.golang.org/protobuf v1.33.0 // indirect
 	k8s.io/klog/v2 v2.120.1 // indirect
 )
